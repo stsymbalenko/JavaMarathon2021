@@ -1,12 +1,13 @@
 package day4;
 
-import java.sql.SQLOutput;
+
 import java.util.Scanner;
 
 public class Task1 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         int n = scanner.nextInt();
+
         int [] m = new int[n];
         for (int i = 0; i < n; i++){
             m [i]= (int)(Math.random()*10);
@@ -26,8 +27,7 @@ public class Task1 {
             }
             if(x%2==0){
                 kch++;
-            }
-            if(x%2!=0){
+            }else{
                 kn++;
             }
             sum = sum+x;

@@ -13,18 +13,14 @@ public class Task4 {
         int sum_three_max = 0;
         int index = 0;
         int index_sum= 0;
-        for(int i =0; i<n;i++){
+        for(int i =0; i<n-2;i++){
             sum_three= 0;
             index = i;
-            if(i<n-3){
+
             for(int j=0; j<3;j++){
                 sum_three = sum_three+ array[i];
                     i++;
                 }
-
-            }else{
-                break;
-            }
 
             //System.out.println(sum_three);
             if(sum_three> sum_three_max){
