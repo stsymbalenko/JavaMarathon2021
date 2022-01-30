@@ -1,8 +1,8 @@
 package day6;
 
 public class Teacher {
-        String name;
-        String thing;
+        private String name;
+        private String thing;
 
         public Teacher(String name, String thing) {
                 this.name = name;
@@ -23,15 +23,11 @@ public class Teacher {
                         case 4:
                                 grade = "хорошо";
                                 break;
-                        case 5:
+                        default:
                                 grade = "отлично";
                                 break;
-
-
-                        default:
-                                throw new IllegalStateException("Unexpected value: " + g);
                 }
 
-                System.out.println( "Преподаватель " + name + " оценил студента с именем " + student.name + " по предмету " + thing + " на оценку " + grade);
+                System.out.println( "Преподаватель " + name + " оценил студента с именем " + student.getName() + " по предмету " + thing + " на оценку " + grade);
         }
 }

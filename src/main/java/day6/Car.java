@@ -10,24 +10,24 @@ public class Car {
         return model;
     }
 
-    public void setModel(String model_set) {
-        model = model_set;
+    public void setModel(String modelSet) {
+        model = modelSet;
     }
 
     public String getColor() {
         return color;
     }
 
-    public void setColor(String color_set) {
-        color = color_set;
+    public void setColor(String colorSet) {
+        color = colorSet;
     }
 
     public int getYear() {
         return year;
     }
 
-    public void setYear(int year_set) {
-        year = year_set;
+    public void setYear(int yearSet) {
+        year = yearSet;
     }
 
     public void info(){
