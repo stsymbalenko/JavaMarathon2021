@@ -1,8 +1,6 @@
 package day9.Task1;
 
 public class Student extends Human{
-
-
     private String groupName;
 
     public Student(String name, String groupName) {
@@ -17,5 +15,4 @@ public class Student extends Human{
         super.printInfo();
         System.out.println("Этот студент с именем " + super.getName());
     }
-
 }

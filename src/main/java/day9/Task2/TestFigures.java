@@ -25,7 +25,7 @@ public class TestFigures {
 
     public static double calculateRedPerimeter(Figure[] figures) {
         for (Figure figure: figures){
-            if (figure.color.equals("Red")){
+            if ("RED".equals(figure.getColor())){
                 sumP = sumP + figure.perimeter();
             }
         }

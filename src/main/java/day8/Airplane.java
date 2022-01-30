@@ -1,11 +1,11 @@
 package day8;
 
 public class Airplane {
-    String manufacturer; //(изготовитель)
-    int year; //(год выпуска)
-    int length; //(длина)
-    int weight; //(вес)
-    int fuel = 0; //(количество топлива в баке)
+    private String manufacturer; //(изготовитель)
+    private int year; //(год выпуска)
+    private int length; //(длина)
+    private int weight; //(вес)
+    private int fuel = 0; //(количество топлива в баке)
 
     public Airplane(String manufacturer, int year, int length, int weight) {
         this.manufacturer = manufacturer;
