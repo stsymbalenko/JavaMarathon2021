@@ -2,10 +2,9 @@ package day7;
 
 public class Player {
     public final static int MAX_STAMINA = 100;
-
     public final static int MIN_STAMINA = 0;
-    public int stamina;
-    public static  int countPlayers = 0;
+    private int stamina;
+    private static  int countPlayers = 0;
 
     public Player(int stamina) {
         this.stamina = stamina;
