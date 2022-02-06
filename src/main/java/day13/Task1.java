@@ -18,12 +18,7 @@ public class Task1 {
         user1.sendMessage(user3, "I'm working");
         user1.sendMessage(user3,"I'm all good");
         user3.sendMessage(user1,"My name is David");
-        user3.sendMessage(user1,"What's your name");
-        user3.sendMessage(user1,"Bye!");
 
-        /*for(Message ms : MessageDatabase.messages){
-            System.out.println(ms.toString());
-        }*/
         MessageDatabase.showDialog(user1,user3);
 
     }
