@@ -25,7 +25,7 @@ public class User {
     }
 
     public boolean isSubscribed(User user){
-        boolean fl = false;
+        /*boolean fl = false;
         for(User users : this.subscriptions){
             if(users.equals(user)){
                 fl =  true;
@@ -33,11 +33,12 @@ public class User {
                 fl =  false;
             }
         }
-        return fl;
+        return fl;*/
+        return subscriptions.contains(user);
     }
 
     public boolean isFriend(User user){
-        boolean flThis = false;
+        /*boolean flThis = false;
         boolean fl = false;
         boolean flUser = false;
 
@@ -62,7 +63,8 @@ public class User {
         }else{
             fl = false;
         }
-        return fl;
+        return fl;*/
+        return subscriptions.contains(user) && user.getSubscriptions().contains(this);
     }
 
     public void sendMessage(User user, String text) {
