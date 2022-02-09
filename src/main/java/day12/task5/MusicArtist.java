@@ -17,8 +17,6 @@ public class MusicArtist {
         this.name = name;
     }
 
-
-
     public int getAge() {
         return age;
     }
@@ -26,7 +24,6 @@ public class MusicArtist {
     public void setAge(int age) {
         this.age = age;
     }
-
 
     @Override
     public String toString() {

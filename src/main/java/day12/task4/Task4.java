@@ -13,7 +13,6 @@ public class Task4 {
         member1.add("Endryu Overmars");
         MusicBand group1 = new MusicBand("The Beatles", 1990, member1);
 
-
         System.out.println(group1.getMembers());
         group1.printMembers();
 
@@ -22,8 +21,8 @@ public class Task4 {
         member2.add("Mike Horn");
         member2.add("Gorn Nike");
         member2.add("Dryu Kurt");
-        MusicBand group2 = new MusicBand("Nirvana", 2001, member2);
 
+        MusicBand group2 = new MusicBand("Nirvana", 2001, member2);
 
         group2.printMembers();
 

@@ -6,7 +6,6 @@ import java.util.List;
 public class MusicBand {
     private String name;
     private int year;
-
     private List<MusicArtist> artists = new ArrayList<>();
 
     public MusicBand(String name, int year, List<MusicArtist> artists) {
@@ -23,7 +22,6 @@ public class MusicBand {
         this.artists = artists;
     }
 
-
     public String getName() {
         return name;
     }
@@ -31,7 +29,6 @@ public class MusicBand {
     public int getYear() {
         return year;
     }
-
 
     @Override
     public String toString() {
@@ -46,13 +43,11 @@ public class MusicBand {
         for(MusicArtist artist: group1.artists){
             group2.artists.add(artist);
         }
-
         group1.artists.clear();
     }
+
     public void printMembers(){
-
             System.out.println(artists.toString());
-
     }
 
 }

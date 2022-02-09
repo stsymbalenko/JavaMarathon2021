@@ -45,16 +45,11 @@ public class MusicBand {
     public static void transferMembers(MusicBand group1, MusicBand group2){
         for(String member: group1.members){
             group2.members.add(member);
-
-
         }
-
         group1.members.clear();
     }
     public void printMembers(){
-
             System.out.println(members.toString());
-
     }
 
 }
